@@ -1,0 +1,221 @@
+:root {
+  --color-primary-brand: #4d5ae5;
+  --color-pressed-state: #404bbf;
+  --color-dark: #2e2f42;
+  --color-success: #31d0aa;
+  --color-text: #434455;
+  --color-subtle-text: #8e8f99;
+  --color-accent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-modal-overlay: #2e2f42;
+  --color-hero-background: #2e2f42;
+  --color-white-background: #ffffff;
+  --color-modal-background: #fcfcfc;
+}
+
+body {
+  background-color: var(--color-white-background);
+  color: var(--color-text);
+  font-family: 'Roboto', sans-serif;
+}
+
+address {
+  font-style: normal;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list .link:hover,
+.list .link:focus,
+.link:hover,
+.link:focus {
+  color: var(--color-pressed-state);
+}
+
+.logo {
+  color: var(--color-primary-brand);
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.logo-dark {
+  color: var(--color-dark);
+}
+
+.navbar-link {
+  color: var(--color-dark);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.address .address-link {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.btn {
+  font-family: inherit;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero .btn:hover,
+.hero .btn:focus,
+.list .btn:hover,
+.list .btn:focus,
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  background-color: var(--color-pressed-state);
+  color: var(--color-modal-background);
+}
+
+.btn-filter {
+  color: var(--color-primary-brand);
+  background-color: var(--color-light);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.btn-filter.btn:hover,
+.btn-filter.btn:focus {
+  background-color: var(--color-pressed-state);
+  color: var(--color-white-background);
+}
+
+.btn-filter.active {
+  background-color: var(--color-pressed-state);
+}
+
+.project-card {
+  font-style: normal;
+}
+
+.project-card .project-name {
+  color: var(--color-dark);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.project-card .project-type {
+  color: var(--color-text);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.footer {
+  background-color: var(--color-modal-overlay);
+}
+
+.footer .logo-light {
+  color: var(--color-light);
+}
+
+.footer .footer-text {
+  color: var(--color-light);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.hero {
+  background-color: var(--color-hero-background);
+  font-style: normal;
+  text-align: center;
+}
+
+.hero .hero-name {
+  color: var(--color-white-background);
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.hero .hero-btn {
+    background-color: var(--color-primary-brand);
+    color: var(--color-white-background);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.strategy {
+    font-style: normal;
+}
+
+.strategy .strategy-name {
+    color: var(--color-dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.strategy .strategy-text {
+    color: var(--slate, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
+
+.section-name {
+    color: var(--color-dark);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-our-team {
+    background-color: var(--color-light);
+}
+
+.team-member {
+    text-align: center;
+    font-style: normal;
+    background-color: var(--color-white-background);
+}
+
+.team-member .team-member-name {
+    color: var(--color-dark);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;
+}
+
+.team-member .team-member-job {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+}
