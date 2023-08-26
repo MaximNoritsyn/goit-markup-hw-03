@@ -86,6 +86,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .btn {
   font-family: inherit;
   font-family: 'Roboto', sans-serif;
+  cursor: pointer;
 }
 
 .hero .btn:hover,
@@ -122,7 +123,6 @@ HEADER
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 76px;
 }
 
 .header .navbar {
@@ -149,8 +149,9 @@ HEADER
   letter-spacing: 0.54px;
   text-transform: uppercase;
   align-self: center;
-  display: block;
-  padding: 17px 0px;
+  display: inline-block;
+  padding: 16px 0px;
+  margin-right: 76px;
 }
 
 .logo-dark {
@@ -194,7 +195,7 @@ MAIN
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  width: 496px;
+  max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -207,9 +208,14 @@ MAIN
     line-height: 1.5;
     letter-spacing: 0.64px;
 
-    display: inline-flex;
+    display: block;
     padding: 16px 32px;
     gap: 10px;
+    min-width: 196px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 .strategy {
@@ -224,7 +230,7 @@ MAIN
   gap: 24px;
 }
 
-.strategy .container .list > li {
+.strategy .container .item {
   flex-basis: 264px;
   display: block;
 }
@@ -248,7 +254,7 @@ MAIN
 }
 
 .what-are-doing {
-  padding: 60px 0px 120px 0px;
+  padding: 120px 0px;
 }
 
 .container .list {
@@ -341,6 +347,7 @@ Portfolio
   background-color: var(--color-pressed-state);
   color: var(--color-white-background);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+  border: 1px solid transparent;
 }
 
 .btn-filter.active {
