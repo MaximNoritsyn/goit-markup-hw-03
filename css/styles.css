@@ -23,6 +23,23 @@ address {
   font-style: normal;
 }
 
+img {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding-left: 0;
+}
+
+.container { 
+  max-width: 1440px;
+  padding-left:  
+  padding-right:  
+  margin-left:  
+  margin-right:  
+}
+
 .list {
   list-style-type: none;
 }
